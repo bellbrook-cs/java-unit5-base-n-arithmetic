@@ -1,10 +1,35 @@
-# Template Assignment
+# Base n Arithmetic
 
 ## Problem Statement
 
+In this lab you will be writing a very simple calculator that can do math with Base n numbers. Your program will do the following:
+
 ## Input Description
 
+1. Prompt the user for an operation, addition, subtraction, multiplication, or division. Use user proofing to ensure the user enters one of these 4 options.
+2. Prompt the user for the base the first number will be in. Use user proofing to ensure the input is between 2 and 36 inclusive.
+3. Prompt the user for the first number.
+4. Prompt the user for the base the second number will be in. Use user proofing to ensure the input is between 2 and 36 inclusive.
+5. Prompt the user for the second number.
+6. Prompt the user for the output base.
+7. Perform the operation from step 1 on the numbers given in step 3, and 5. Output the resulting number in the base provided in step 6.
+8. Ask the user if they would like to do another calculation. Use user proofing to ensure the input is strictly Y or N.
+
+- In the case of division, you can assume it is integer division. The result of any operation should be truncated.
+- You can assume input for steps 3 and 5 are always valid. You do not need to use user proofing to ensure they are valid integers in that base. If you would like to resolve this issue it requires knowledge of try...catch structures. If you would like to explore this, you can follow this [link](https://www.w3schools.com/java/java_try_catch.asp).
+
 ## Sample Input/Output
+
+```
+What operation would you like to do (*, /, +, -)? *
+What base is your first number in? 8
+What is your first number? 16
+What base is your second number in? 2
+What is your second number? 101010
+What base do you want your output to be in? 16
+The result of this operation in base 16 is 24C
+Would you like to do another calculation (Y/N)? N
+```
 
 ## Submission
 
